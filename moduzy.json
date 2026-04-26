@@ -1,0 +1,16 @@
+[
+  {
+    "id": "moduzy",
+    "name": "魔都资源",
+    "type": 0,
+    "nsfw": false,
+    "logo": "https://www.moduzy.cc/template/modu/images/logo.png",
+    "desc": "魔都资源网 - 主打动漫与高清影视",
+    "api": "https://www.mdzyapi.com/api.php/provide/vod/at/xml/",
+    "extra": {
+      "gfw": false,
+      "searchLimit": 20,
+      "jiexiUrl": "https://jiexi.modujx01.com/?url="
+    }
+  }
+]
