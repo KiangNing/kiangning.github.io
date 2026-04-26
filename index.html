@@ -9,15 +9,15 @@
         
         :root {
             --bg: #0a0a0f;
-            --accent: #c026d3;
-            --text: #e0e0ff;
+            --primary: #122e8a;
+            --accent: #f5efea;
         }
         
         * { margin:0; padding:0; box-sizing:border-box; }
         body {
             font-family: 'Noto Sans SC', sans-serif;
             background: var(--bg);
-            color: var(--text);
+            color: var(--accent);
             height: 100vh;
             overflow: hidden;
             display: flex;
@@ -26,11 +26,10 @@
             position: relative;
         }
         
-        /* 背景粒子/渐变 */
         .bg {
             position: absolute;
             inset: 0;
-            background: radial-gradient(circle at 50% 30%, rgba(192, 38, 211, 0.08) 0%, transparent 60%);
+            background: radial-gradient(circle at 50% 30%, rgba(18, 46, 138, 0.15) 0%, transparent 70%);
             z-index: 1;
             pointer-events: none;
         }
@@ -42,60 +41,35 @@
         }
         
         h1 {
-            font-size: 5.5rem;
+            font-size: 5.8rem;
             font-weight: 300;
-            letter-spacing: 0.15em;
-            margin-bottom: 0.5rem;
-            background: linear-gradient(90deg, #e0e0ff, #c026d3, #a78bfa);
+            letter-spacing: 0.12em;
+            margin-bottom: 0.8rem;
+            background: linear-gradient(90deg, #f5efea, #a5b4fc, #122e8a);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
         }
         
         .subtitle {
-            font-size: 1.1rem;
-            opacity: 0.7;
-            letter-spacing: 0.3em;
-            margin-bottom: 3rem;
+            font-size: 1.15rem;
+            opacity: 0.75;
+            letter-spacing: 0.35em;
+            margin-bottom: 4rem;
+            font-weight: 300;
         }
         
-        .links {
-            display: flex;
-            gap: 2.5rem;
-            justify-content: center;
-            flex-wrap: wrap;
-        }
-        
-        .link {
-            color: var(--text);
-            text-decoration: none;
-            font-size: 1.05rem;
-            padding: 0.8rem 1.8rem;
-            border: 1px solid rgba(192, 38, 211, 0.3);
-            border-radius: 9999px;
-            transition: all 0.4s ease;
-            backdrop-filter: blur(10px);
-        }
-        
-        .link:hover {
-            background: rgba(192, 38, 211, 0.1);
-            border-color: var(--accent);
-            transform: translateY(-4px);
-            box-shadow: 0 10px 30px rgba(192, 38, 211, 0.25);
-        }
-        
-        /* 轻微动画背景 */
         .stars {
             position: absolute;
             inset: 0;
             background: transparent url('https://s2.loli.net/2025/04/26/8vX7KzLqYpWjH9M.png') repeat;
-            opacity: 0.15;
-            animation: float 80s linear infinite;
+            opacity: 0.12;
+            animation: float 90s linear infinite;
             z-index: 0;
         }
         
         @keyframes float {
             0% { background-position: 0 0; }
-            100% { background-position: -2000px -2000px; }
+            100% { background-position: -2500px -2500px; }
         }
     </style>
 </head>
@@ -105,23 +79,16 @@
     
     <div class="content">
         <h1>Kiangning.</h1>
-        <p class="subtitle">ANIME · CODE · DREAM</p>
-        
-        <div class="links">
-            <a href="https://github.com/你的用户名" target="_blank" class="link">GitHub</a>
-            <a href="#" class="link">Twitter</a>
-            <a href="#" class="link">Bilibili</a>
-            <a href="https://t.me/你的频道" target="_blank" class="link">Telegram</a>
-        </div>
+        <p class="subtitle">ANIME · DREAM · CODE</p>
     </div>
 
     <script>
-        // 简单的鼠标跟随光晕效果（可选）
+        // 鼠标轻微跟随光晕效果
         document.addEventListener('mousemove', (e) => {
             const bg = document.querySelector('.bg');
             const x = (e.clientX / window.innerWidth) * 100;
             const y = (e.clientY / window.innerHeight) * 100;
-            bg.style.background = `radial-gradient(circle at ${x}% ${y}%, rgba(192, 38, 211, 0.12) 0%, transparent 60%)`;
+            bg.style.background = `radial-gradient(circle at ${x}% ${y}%, rgba(18, 46, 138, 0.18) 0%, transparent 65%)`;
         });
     </script>
 </body>
