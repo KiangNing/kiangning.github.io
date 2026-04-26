@@ -4,11 +4,9 @@
     "name": "魔都资源",
     "type": 0,
     "nsfw": false,
-    "logo": "https://www.moduzy.cc/template/modu/images/logo.png",
     "api": "https://www.mdzyapi.com/api.php/provide/vod/at/xml/",
     "extra": {
       "gfw": false,
-      "searchLimit": 20,
       "jiexiUrl": "https://jiexi.modujx01.com/?url="
     }
   },
@@ -17,12 +15,65 @@
     "name": "茅台资源",
     "type": 0,
     "nsfw": false,
-    "logo": "",
     "api": "https://caiji.maotaizy.cc/api.php/provide/vod/at/xml/",
     "extra": {
       "gfw": false,
-      "searchLimit": 20,
-      "jiexiUrl": "https://maotai888.vip:966/?url="
+      "jiexiUrl": "https://www.hnjiexi.com/m3u8/?url="
+    }
+  },
+  {
+    "id": "dyttzy",
+    "name": "电影天堂",
+    "type": 0,
+    "nsfw": false,
+    "api": "http://caiji.dyttzyapi.com/api.php/provide/vod/at/xml/",
+    "extra": {
+      "gfw": false,
+      "jiexiUrl": "https://vip.dyttzyplay.com/?url="
+    }
+  },
+  {
+    "id": "maoyan",
+    "name": "猫眼资源",
+    "type": 0,
+    "nsfw": false,
+    "api": "https://api.maoyanapi.top/api.php/provide/vod/at/xml/",
+    "extra": {
+      "gfw": false,
+      "jiexiUrl": "https://www.hnjiexi.com/m3u8/?url="
+    }
+  },
+  {
+    "id": "xinlang",
+    "name": "新浪资源",
+    "type": 0,
+    "nsfw": false,
+    "api": "https://api.xinlangapi.com/xinlangapi.php/provide/vod/",
+    "extra": {
+      "gfw": false,
+      "jiexiUrl": "https://xljiexi.com/m3u8/?url="
+    }
+  },
+  {
+    "id": "yuyou",
+    "name": "优优资源",
+    "type": 0,
+    "nsfw": true,
+    "api": "https://yytv1.cc/api.php/provide/vod/at/xml/",
+    "extra": {
+      "gfw": false,
+      "jiexiUrl": "https://www.hnjiexi.com/m3u8/?url="
+    }
+  },
+  {
+    "id": "xjzy",
+    "name": "小鸡资源",
+    "type": 0,
+    "nsfw": true,
+    "api": "https://api.xjzyapi.xyz/provide/vod/at/xml/",
+    "extra": {
+      "gfw": false,
+      "jiexiUrl": "https://api.xjzyapi.xyz/aplayer/player.html?autoplay=1&movurl="
     }
   }
 ]
