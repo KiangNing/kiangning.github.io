@@ -5,12 +5,24 @@
     "type": 0,
     "nsfw": false,
     "logo": "https://www.moduzy.cc/template/modu/images/logo.png",
-    "desc": "魔都资源网 - 主打动漫与高清影视",
     "api": "https://www.mdzyapi.com/api.php/provide/vod/at/xml/",
     "extra": {
       "gfw": false,
       "searchLimit": 20,
       "jiexiUrl": "https://jiexi.modujx01.com/?url="
+    }
+  },
+  {
+    "id": "maotai",
+    "name": "茅台资源",
+    "type": 0,
+    "nsfw": false,
+    "logo": "",
+    "api": "https://caiji.maotaizy.cc/api.php/provide/vod/at/xml/",
+    "extra": {
+      "gfw": false,
+      "searchLimit": 20,
+      "jiexiUrl": "https://maotai888.vip:966/?url="
     }
   }
 ]
