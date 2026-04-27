@@ -91,15 +91,15 @@
     "id": "yytv_main",
     "name": "优优资源",
     "type": 0,
-    "api": "https://yytv1.cc/api.php/provide/vod/?ac=list",
+    "api": "https://yytv1.cc/api.php/provide/vod/from/dplayer/at/xml/",
     "logo": "https://yytv.cc/favicon.ico",
-    "desc": "优优资源",
+    "desc": "优优资源（dplayer专用接口）",
     "nsfw": false,
     "status": true,
     "extra": {
       "gfw": false,
       "jiexiUrl": "https://yytv1.cc/player/dplayer.html?url=",
-      "sniffer": { "mode": 0, "timeout": 20000 }
+      "sniffer": { "mode": 0, "timeout": 25000 }
     }
   }
 ]
