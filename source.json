@@ -3,12 +3,13 @@
     "id": "mtzy_main",
     "name": "茅台资源站",
     "type": 0,
-    "api": "https://caiji.maotaizy.cc/api.php/provide/vod/at/josn/",
+    "api": "https://caiji.maotaizy.cc/api.php/provide/vod/at/json/",
     "logo": "https://mtzy.me/favicon.ico",
     "desc": "茅台资源站 - 主接口（速度快，内置加速解析）",
+    "nsfw": false,
+    "status": true,
     "extra": {
       "gfw": false,
-      "nsfw": false,
       "searchLimit": 20,
       "jiexiUrl": "https://maotai888.vip:966/?url=",
       "sniffer": {
@@ -21,17 +22,17 @@
     "id": "jszy_main",
     "name": "极速资源",
     "type": 0,
-    "api": "https://jszyapi.com/api.php/provide/vod/at/json/",
+    "api": "https://jszyapi.com/api.php/provide/vod/from/jsm3u8/",
     "logo": "https://jszy333.com/favicon.ico",
-    "desc": "极速资源 - 速度极快，画质高清",
+    "desc": "极速资源 - 高速线路，m3u8直链优先",
+    "nsfw": false,
+    "status": true,
     "extra": {
       "gfw": false,
-      "nsfw": false,
-      "searchLimit": 10,
-      "jiexiUrl": "https://jx.jszyapi.com/player/?url=",
+      "searchLimit": 20,
       "sniffer": {
         "mode": 0,
-        "timeout": 10000
+        "timeout": 12000
       }
     }
   },
@@ -39,20 +40,18 @@
     "id": "dbzy_main",
     "name": "豆瓣资源",
     "type": 0,
-    "api": "https://caiji.dbzy5.com/api.php/provide/vod/from/dbm3u8/at/josn/",
+    "api": "https://dbzy.tv/api.php/provide/vod/from/dbm3u8/",
     "logo": "https://dbzy.tv/favicon.ico",
-    "desc": "豆瓣资源 - 官方源（如无图请开启无来源头模式）",
+    "desc": "豆瓣资源 - 内容较全，部分需代理",
+    "nsfw": true,
+    "status": true,
     "extra": {
-      "gfw": false,
-      "nsfw": false,
-      "searchLimit": 15,
-      "jiexiUrl": "https://dbzy99.com:699/?url=",
-      "referrer": "no-referrer", 
+      "gfw": true,
+      "searchLimit": 20,
       "sniffer": {
         "mode": 0,
-        "timeout": 12000
+        "timeout": 15000
       }
     }
   }
-
 ]
