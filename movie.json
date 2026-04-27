@@ -91,9 +91,9 @@
     "id": "yytv_main",
     "name": "优优资源",
     "type": 0,
-    "api": "https://yytv1.cc/api.php/provide/vod/at/xml",
+    "api": "https://yytv1.cc/api.php/provide/vod/?ac=list",
     "logo": "https://yytv.cc/favicon.ico",
-    "desc": "优优资源（重构版）",
+    "desc": "优优资源",
     "nsfw": false,
     "status": true,
     "extra": {
