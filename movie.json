@@ -91,7 +91,7 @@
     "id": "yhzy_main",
     "name": "樱花资源",
     "type": 0,
-    "api": "https://api.yhzyapi.com/api.php/provide/vod/at/xml/",
+    "api": "https://api.yhzyapi.com/api.php/provide/vod/at/xml",
     "logo": "https://yhzy.cc/favicon.ico",
     "desc": "樱花资源",
     "nsfw": false,
@@ -99,7 +99,7 @@
     "extra": {
       "gfw": false,
       "jiexiUrl": "https://jx.yhzybf.com/player/jx.php?url=",
-      "sniffer": { "mode": 0, "timeout": 15000 }
+      "sniffer": { "mode": 0, "timeout": 18000 }
     }
   },
   {
@@ -108,12 +108,13 @@
     "type": 0,
     "api": "https://yytv1.cc/api.php/provide/vod/at/xml",
     "logo": "https://yytv.cc/favicon.ico",
-    "desc": "优优资源（已调整）",
+    "desc": "优优资源（已重调）",
     "nsfw": false,
     "status": true,
     "extra": {
       "gfw": false,
-      "sniffer": { "mode": 0, "timeout": 18000 }
+      "jiexiUrl": "https://yytv1.cc/player/dplayer.html?url=",
+      "sniffer": { "mode": 0, "timeout": 20000 }
     }
   }
 ]
