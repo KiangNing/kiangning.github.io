@@ -86,21 +86,19 @@
       "jiexiUrl": "https://jx.jxbdzyw.com/m3u8/?url=",
       "sniffer": { "mode": 0, "timeout": 15000 }
     },
-  {
-    "id": "$UUID",
-    "name": "优优资源",
-    "type": 0,
-    "logo": "https://yytv1.cc/template/vod/img/logo.png",  // 可选，替换为你喜欢的图标
-    "desc": "优优资源 - 全网最全资源，每天定时更新，手工采集，无广告",
-    "nsfw": false,
-    "status": true,
-    "api": "https://yytv1.cc/api.php/provide/vod/?ac=list",
-    "extra": {
-      "gfw": false,
-      "searchLimit": 20,
-      "category": "[]"
+    {
+      "id": "$UUID",
+      "name": "优优资源",
+      "type": 0,
+      "logo": "https://yytv1.cc/template/vod/img/logo.png",  // 可选，替换为你喜欢的图标
+      "desc": "优优资源 - 全网最全资源，每天定时更新，手工采集，无广告",
+      "nsfw": false,
+      "status": true,
+      "api": "https://yytv1.cc/api.php/provide/vod/?ac=list",
+        "extra": {
+        "gfw": false,
+        "searchLimit": 20,
+        "category": "[]"
+      }
     }
-  }
-
-  }
 ]
