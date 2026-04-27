@@ -3,9 +3,9 @@
     "id": "mtzy_main",
     "name": "茅台资源站",
     "type": 0,
-    "api": "https://caiji.maotaizy.cc/api.php/provide/vod/at/josn/",
+    "api": "https://caiji.maotaizy.cc/api.php/provide/vod/at/xml/",
     "logo": "https://mtzy.me/favicon.ico",
-    "desc": "茅台资源站 - 主接口（速度快，内置加速解析）",
+    "desc": "茅台资源站 - XML主接口（推荐，分类更稳定）",
     "extra": {
       "gfw": false,
       "searchLimit": 20,
