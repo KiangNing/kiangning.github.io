@@ -1,9 +1,9 @@
 [
-  {
+   {
     "id": "okzy_main",
     "name": "OK资源",
     "type": 0,
-    "api": "https://api.okzyw.net/api.php/provide/vod/from/okm3u8/at/xml",
+    "api": "https://api.okzyw.net/api.php/provide/vod",
     "logo": "https://okzyw.cc/favicon.ico",
     "desc": "OK资源",
     "nsfw": false,
