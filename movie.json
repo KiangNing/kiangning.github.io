@@ -106,14 +106,14 @@
     "id": "yytv_main",
     "name": "优优资源",
     "type": 0,
-    "api": "https://yytv1.cc/api.php/provide/vod/at/xml",
+    "api": "https://yytv5.cc/api.php/provide/vod/at/xml",
     "logo": "https://yytv.cc/favicon.ico",
-    "desc": "优优资源（已重调）",
+    "desc": "优优资源（使用 yytv5 备用）",
     "nsfw": false,
     "status": true,
     "extra": {
       "gfw": false,
-      "jiexiUrl": "https://yytv1.cc/player/dplayer.html?url=",
+      "jiexiUrl": "https://yytv5.cc/player/dplayer.html?url=",
       "sniffer": { "mode": 0, "timeout": 20000 }
     }
   }
