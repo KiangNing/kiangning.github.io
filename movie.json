@@ -44,17 +44,17 @@
     }
   },
   {
-    "id": "jinying_main",
-    "name": "金鹰资源",
+    "id": "maoyan_main",
+    "name": "猫眼资源",
     "type": 0,
-    "api": "https://jyzyapi.com/provide/vod/from/jinyingm3u8/at/xml/",
-    "logo": "https://jyzyapi.com/favicon.ico",
-    "desc": "金鹰资源",
+    "api": "https://api.maoyanapi.top/api.php/provide/vod",
+    "logo": "https://www.maoyanzy.com/favicon.ico",
+    "desc": "猫眼资源",
     "nsfw": false,
     "status": true,
     "extra": {
       "gfw": false,
-      "jiexiUrl": "https://hd.iapijy.com/play?url=",
+      "jiexiUrl": "https://jx.maoyanjx.top/player/?url=",
       "sniffer": { "mode": 0, "timeout": 15000 }
     }
   },
@@ -69,6 +69,21 @@
     "status": true,
     "extra": {
       "gfw": false,
+      "sniffer": { "mode": 0, "timeout": 15000 }
+    }
+  },
+  {
+    "id": "789_main",
+    "name": "789资源",
+    "type": 0,
+    "api": "https://www.caiji.cyou/api.php/provide/vod",
+    "logo": "https://www.caiji.cyou/favicon.ico",
+    "desc": "789资源（聚合腾讯/爱奇艺等）",
+    "nsfw": false,
+    "status": true,
+    "extra": {
+      "gfw": false,
+      "jiexiUrl": "https://jiexi.789jiexi.net:4433/?url=",
       "sniffer": { "mode": 0, "timeout": 15000 }
     }
   }
