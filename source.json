@@ -42,11 +42,11 @@
     "type": 0,
     "api": "https://dbzy.tv/api.php/provide/vod/from/dbm3u8/",
     "logo": "https://dbzy.tv/favicon.ico",
-    "desc": "豆瓣资源 - 内容较全，部分需代理",
-    "nsfw": true,
+    "desc": "豆瓣资源 - 内容较全（封面偶尔异常）",
+    "nsfw": false,
     "status": true,
     "extra": {
-      "gfw": true,
+      "gfw": false,
       "searchLimit": 20,
       "sniffer": {
         "mode": 0,
