@@ -69,5 +69,23 @@
         "timeout": 12000
       }
     }
+  },{
+    "id": "ikun_main",
+    "name": "iKun资源",
+    "type": 0,
+    "api": "https://ikunzyapi.com/api.php/provide/vod/at/json/",
+    "logo": "https://www.ikunzy.com/favicon.ico",
+    "desc": "iKun资源 - 专注于高质量切片，速度极快",
+    "extra": {
+      "gfw": false,
+      "nsfw": false,
+      "searchLimit": 15,
+      "jiexiUrl": "https://www.ikunzyapi.com/player/?url=",
+      "sniffer": {
+        "mode": 0,
+        "timeout": 12000
+      }
+    }
   }
+
 ]
