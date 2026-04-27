@@ -44,21 +44,6 @@
     }
   },
   {
-    "id": "maoyan_main",
-    "name": "猫眼资源",
-    "type": 0,
-    "api": "https://api.maoyanapi.top/api.php/provide/vod",
-    "logo": "https://www.maoyanzy.com/favicon.ico",
-    "desc": "猫眼资源",
-    "nsfw": false,
-    "status": true,
-    "extra": {
-      "gfw": false,
-      "jiexiUrl": "https://jx.maoyanjx.top/player/?url=",
-      "sniffer": { "mode": 0, "timeout": 15000 }
-    }
-  },
-  {
     "id": "moduzy_main",
     "name": "魔都资源",
     "type": 0,
@@ -78,12 +63,55 @@
     "type": 0,
     "api": "https://cj.rycjapi.com/api.php/provide/vod/at/xml/",
     "logo": "https://www.ryzy.tv/favicon.ico",
-    "desc": "如意资源（综合资源）",
+    "desc": "如意资源",
     "nsfw": false,
     "status": true,
     "extra": {
       "gfw": false,
       "jiexiUrl": "https://ruyiplayer.com?url=",
+      "sniffer": { "mode": 0, "timeout": 15000 }
+    }
+  },
+  {
+    "id": "yytv_main",
+    "name": "优优资源",
+    "type": 0,
+    "api": "https://yytv1.cc/api.php/provide/vod/at/xml/",
+    "logo": "https://yytv.cc/favicon.ico",
+    "desc": "优优资源",
+    "nsfw": true,
+    "status": true,
+    "extra": {
+      "gfw": false,
+      "sniffer": { "mode": 0, "timeout": 15000 }
+    }
+  },
+  {
+    "id": "xiaojizy_main",
+    "name": "小鸡资源",
+    "type": 0,
+    "api": "https://api.xjzyapi.xyz/provide/vod",
+    "logo": "https://xiaojizy.live/favicon.ico",
+    "desc": "小鸡资源（成人）",
+    "nsfw": true,
+    "status": true,
+    "extra": {
+      "gfw": false,
+      "jiexiUrl": "https://api.xjzyapi.xyz/aplayer/player.html?autoplay=1&movurl=",
+      "sniffer": { "mode": 0, "timeout": 15000 }
+    }
+  },
+  {
+    "id": "doudouzy_main",
+    "name": "豆豆资源",
+    "type": 0,
+    "api": "https://api.douapi.cc/api.php/provide/vod",
+    "logo": "https://doudouzy.com/favicon.ico",
+    "desc": "豆豆资源（成人）",
+    "nsfw": true,
+    "status": true,
+    "extra": {
+      "gfw": false,
       "sniffer": { "mode": 0, "timeout": 15000 }
     }
   }
