@@ -88,32 +88,17 @@
     }
   },
   {
-    "id": "yhzy_main",
-    "name": "樱花资源",
-    "type": 0,
-    "api": "https://api.yhzyapi.com/api.php/provide/vod/at/xml",
-    "logo": "https://yhzy.cc/favicon.ico",
-    "desc": "樱花资源",
-    "nsfw": false,
-    "status": true,
-    "extra": {
-      "gfw": false,
-      "jiexiUrl": "https://jx.yhzybf.com/player/jx.php?url=",
-      "sniffer": { "mode": 0, "timeout": 18000 }
-    }
-  },
-  {
     "id": "yytv_main",
     "name": "优优资源",
     "type": 0,
-    "api": "https://yytv5.cc/api.php/provide/vod/at/xml",
+    "api": "https://yytv1.cc/api.php/provide/vod/at/xml",
     "logo": "https://yytv.cc/favicon.ico",
-    "desc": "优优资源（使用 yytv5 备用）",
+    "desc": "优优资源（重构版）",
     "nsfw": false,
     "status": true,
     "extra": {
       "gfw": false,
-      "jiexiUrl": "https://yytv5.cc/player/dplayer.html?url=",
+      "jiexiUrl": "https://yytv1.cc/player/dplayer.html?url=",
       "sniffer": { "mode": 0, "timeout": 20000 }
     }
   }
