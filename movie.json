@@ -5,12 +5,11 @@
     "type": 0,
     "api": "https://api.okzyw.net/api.php/provide/vod/from/okm3u8/at/xml",
     "logo": "https://okzyw.cc/favicon.ico",
-    "desc": "",
+    "desc": "OK资源",
     "nsfw": false,
     "status": true,
     "extra": {
       "gfw": false,
-      "searchLimit": 20,
       "jiexiUrl": "https://jiexi.okzyw.org/m3u8/?url=",
       "sniffer": { "mode": 0, "timeout": 12000 }
     }
@@ -21,12 +20,11 @@
     "type": 0,
     "api": "https://jszyapi.com/api.php/provide/vod/from/jsm3u8/at/xml",
     "logo": "https://jszy333.com/favicon.ico",
-    "desc": "",
+    "desc": "极速资源",
     "nsfw": false,
     "status": true,
     "extra": {
       "gfw": false,
-      "searchLimit": 20,
       "sniffer": { "mode": 0, "timeout": 10000 }
     }
   },
@@ -36,12 +34,11 @@
     "type": 0,
     "api": "https://caiji.maotaizy.cc/api.php/provide/vod/from/mtm3u8/at/xml/",
     "logo": "https://mtzy.me/favicon.ico",
-    "desc": "",
+    "desc": "茅台资源",
     "nsfw": false,
     "status": true,
     "extra": {
       "gfw": false,
-      "searchLimit": 20,
       "jiexiUrl": "https://maotai888.vip:966/?url=",
       "sniffer": { "mode": 0, "timeout": 15000 }
     }
@@ -52,12 +49,11 @@
     "type": 0,
     "api": "https://jyzyapi.com/provide/vod/from/jinyingm3u8/at/xml/",
     "logo": "https://jyzyapi.com/favicon.ico",
-    "desc": "",
+    "desc": "金鹰资源",
     "nsfw": false,
     "status": true,
     "extra": {
       "gfw": false,
-      "searchLimit": 20,
       "jiexiUrl": "https://hd.iapijy.com/play?url=",
       "sniffer": { "mode": 0, "timeout": 15000 }
     }
@@ -66,26 +62,13 @@
     "id": "moduzy_main",
     "name": "魔都资源",
     "type": 0,
-    "api": "https://jyzyapi.com/provide/vod/from/jinyingm3u8/at/xml/",
+    "api": "https://www.moduzy1.com/api.php/provide/vod/at/xml/",
     "logo": "https://www.moduzy1.com/favicon.ico",
-    "desc": "",
+    "desc": "魔都资源",
     "nsfw": false,
     "status": true,
     "extra": {
       "gfw": false,
-      "searchLimit": 20,
-      "mirror": [
-        "https://www.moduzy1.com",
-        "https://moduzy2.com",
-        "https://moduzy3.com",
-        "https://moduzy4.com",
-        "https://moduzy5.com",
-        "https://moduzy6.com",
-        "https://moduzy7.com",
-        "https://moduzy8.com",
-        "https://moduzy9.com",
-        "https://moduzy10.com"
-      ],
       "sniffer": { "mode": 0, "timeout": 15000 }
     }
   }
