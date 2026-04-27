@@ -73,17 +73,17 @@
     }
   },
   {
-    "id": "789_main",
-    "name": "789资源",
+    "id": "ryzy_main",
+    "name": "如意资源",
     "type": 0,
-    "api": "https://www.caiji.cyou/api.php/provide/vod",
-    "logo": "https://www.caiji.cyou/favicon.ico",
-    "desc": "789资源（聚合腾讯/爱奇艺等）",
+    "api": "https://cj.rycjapi.com/api.php/provide/vod/at/xml/",
+    "logo": "https://www.ryzy.tv/favicon.ico",
+    "desc": "如意资源（综合资源）",
     "nsfw": false,
     "status": true,
     "extra": {
       "gfw": false,
-      "jiexiUrl": "https://jiexi.789jiexi.net:4433/?url=",
+      "jiexiUrl": "https://ruyiplayer.com?url=",
       "sniffer": { "mode": 0, "timeout": 15000 }
     }
   }
