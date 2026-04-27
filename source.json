@@ -3,7 +3,7 @@
     "id": "okzy_main",
     "name": "OK资源",
     "type": 0,
-    "api": "https://okzyw.cc/api.php/provide/vod/from/okm3u8/",
+    "api": "https://api.okzyw.net/api.php/provide/vod/from/okm3u8/at/xml",
     "logo": "https://okzyw.cc/favicon.ico",
     "desc": "",
     "nsfw": false,
@@ -11,6 +11,10 @@
     "extra": {
       "gfw": false,
       "searchLimit": 20,
+      "jiexiUrl": "https://jiexi.okzyw.org/m3u8/?url=",
+      "backupApi": [
+        "https://api.okzyw.net/api.php/provide/vod/?ac=list"
+      ],
       "sniffer": {
         "mode": 0,
         "timeout": 12000
@@ -21,7 +25,7 @@
     "id": "jszy_main",
     "name": "极速资源",
     "type": 0,
-    "api": "https://jszyapi.com/api.php/provide/vod/from/jsm3u8/",
+    "api": "https://jszyapi.com/api.php/provide/vod/from/jsm3u8/at/xml",
     "logo": "https://jszy333.com/favicon.ico",
     "desc": "",
     "nsfw": false,
@@ -29,6 +33,12 @@
     "extra": {
       "gfw": false,
       "searchLimit": 20,
+      "backupApi": [
+        "https://jszyapi.com/api.php/provide/vod/at/xml",
+        "https://jszyapi.com/api.php/provide/vod/at/json",
+        "https://jszyapi.com/api.php/provide/vod/from/jsyun/at/xml",
+        "https://jszyapi.com/api.php/provide/vod/from/jsyun/at/json"
+      ],
       "sniffer": {
         "mode": 0,
         "timeout": 10000
@@ -36,58 +46,51 @@
     }
   },
   {
-  "id": "mtzy_main",
-  "name": "茅台资源",
-  "type": 0,
-  "api": "https://caiji.maotaizy.cc/api.php/provide/vod/from/mtm3u8/at/xml/",
-  "logo": "https://mtzy.me/favicon.ico",
-  "desc": "",
-  "nsfw": false,
-  "status": true,
-  "extra": {
-    "gfw": false,
-    "searchLimit": 20,
-    "jiexiUrl": "https://maotai888.vip:966/?url=",
-    "backupApi": [
-      "https://caiji.maotaizy.cc/api.php/provide/vod/at/json/",
-      "https://caiji.maotaizy.cc/api.php/provide/vod/from/mtm3u8/at/json/",
-      "https://caiji.maotaizy.cc/api.php/provide/vod/from/mtm3u8/at/xml/"
-    ],
-    "sniffer": {
-      "mode": 0,
-      "timeout": 15000
-    }
-  }
-},
-  {
-    "id": "moduzy_main",
-    "name": "魔都资源",
+    "id": "mtzy_main",
+    "name": "茅台资源",
     "type": 0,
-    "api": "https://www.mdzyapi.com/api.php/provide/vod/at/xml/",
-    "logo": "https://www.moduzy1.com/favicon.ico",
+    "api": "https://caiji.maotaizy.cc/api.php/provide/vod/from/mtm3u8/at/xml/",
+    "logo": "https://mtzy.me/favicon.ico",
     "desc": "",
     "nsfw": false,
     "status": true,
     "extra": {
       "gfw": false,
       "searchLimit": 20,
+      "jiexiUrl": "https://maotai888.vip:966/?url=",
+      "backupApi": [
+        "https://caiji.maotaizy.cc/api.php/provide/vod/at/json/",
+        "https://caiji.maotaizy.cc/api.php/provide/vod/from/mtm3u8/at/json/"
+      ],
       "sniffer": {
         "mode": 0,
         "timeout": 15000
-      },
-      "mirror": [
-        "https://www.moduzy1.com",
-        "https://moduzy1.com",
-        "https://moduzy2.com",
-        "https://moduzy3.com",
-        "https://moduzy4.com",
-        "https://moduzy5.com",
-        "https://moduzy6.com",
-        "https://moduzy7.com",
-        "https://moduzy8.com",
-        "https://moduzy9.com",
-        "https://moduzy10.com"
-      ]
+      }
+    }
+  },
+  {
+    "id": "jinying_main",
+    "name": "金鹰资源",
+    "type": 0,
+    "api": "https://jyzyapi.com/provide/vod/from/jinyingm3u8/at/xml/",
+    "logo": "https://jyzyapi.com/favicon.ico",
+    "desc": "",
+    "nsfw": false,
+    "status": true,
+    "extra": {
+      "gfw": false,
+      "searchLimit": 20,
+      "jiexiUrl": "https://hd.iapijy.com/play?url=",
+      "backupApi": [
+        "https://jyzyapi.com/provide/vod/at/xml/",
+        "https://jyzyapi.com/provide/vod/from/jinyingyun/at/xml/",
+        "https://jyzyapi.com/provide/vod/from/jinyingm3u8/at/json",
+        "https://jyzyapi.com/provide/vod/from/jinyingyun/at/json"
+      ],
+      "sniffer": {
+        "mode": 0,
+        "timeout": 15000
+      }
     }
   }
 ]
