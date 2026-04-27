@@ -40,14 +40,15 @@
     "id": "dbzy_main",
     "name": "豆瓣资源",
     "type": 0,
-    "api": "https://dbzy.tv/api.php/provide/vod/from/dbm3u8/",
+    "api": "https://caiji.dbzy5.com/api.php/provide/vod/from/dbm3u8/",
     "logo": "https://dbzy.tv/favicon.ico",
-    "desc": "豆瓣资源 - 内容较全（封面偶尔异常）",
+    "desc": "豆瓣资源 - 修复封面版（新采集域）",
     "nsfw": false,
     "status": true,
     "extra": {
       "gfw": false,
       "searchLimit": 20,
+      "jiexiUrl": "https://doubanzyjx.com:966/?url=",
       "sniffer": {
         "mode": 0,
         "timeout": 15000
