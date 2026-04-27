@@ -39,14 +39,14 @@
     "id": "dbzy_main",
     "name": "豆瓣资源",
     "type": 0,
-    "api": "https://www.dbzy.tv/api.php/provide/vod/at/json/",
+    "api": "https://caiji.dbzy5.com/api.php/provide/vod/from/dbm3u8/at/josn/",
     "logo": "https://dbzy.tv/favicon.ico",
-    "desc": "豆瓣资源 - 官方超清，极速秒播",
+    "desc": "豆瓣资源 - 官方m3u8极速源，内置P2P加速",
     "extra": {
       "gfw": false,
       "nsfw": false,
       "searchLimit": 15,
-      "jiexiUrl": "https://jx.dbzyapi.com/player/?url=",
+      "jiexiUrl": "https://www.dbjiexi.com:966/jx/?url=",
       "sniffer": {
         "mode": 0,
         "timeout": 12000
