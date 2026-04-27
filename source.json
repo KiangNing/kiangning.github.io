@@ -34,5 +34,40 @@
         "timeout": 10000
       }
     }
+  },{
+    "id": "dbzy_main",
+    "name": "豆瓣资源",
+    "type": 0,
+    "api": "https://api.dbzyapi.com/api.php/provide/vod/at/json/",
+    "logo": "https://dbzy.tv/favicon.ico",
+    "desc": "豆瓣资源 - 官方超清，极速秒播",
+    "extra": {
+      "gfw": false,
+      "nsfw": false,
+      "searchLimit": 15,
+      "jiexiUrl": "https://jx.dbzyapi.com/player/?url=",
+      "sniffer": {
+        "mode": 0,
+        "timeout": 12000
+      }
+    }
+  },
+  {
+    "id": "snzy_main",
+    "name": "索尼资源",
+    "type": 0,
+    "api": "https://suonizyapi.com/api.php/provide/vod/at/json/",
+    "logo": "https://suonizy.net/favicon.ico",
+    "desc": "索尼资源 - 秒播画质，多线加速",
+    "extra": {
+      "gfw": false,
+      "nsfw": false,
+      "searchLimit": 15,
+      "jiexiUrl": "https://jx.snzyapi.com/player/?url=",
+      "sniffer": {
+        "mode": 0,
+        "timeout": 12000
+      }
+    }
   }
 ]
