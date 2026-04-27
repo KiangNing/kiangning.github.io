@@ -1,11 +1,47 @@
 [
   {
+    "id": "okzy_main",
+    "name": "OK资源",
+    "type": 0,
+    "api": "https://okzyw.cc/api.php/provide/vod/from/okm3u8/",
+    "logo": "https://okzyw.cc/favicon.ico",
+    "desc": "OK资源 - 主力稳定源（封面正常）",
+    "nsfw": false,
+    "status": true,
+    "extra": {
+      "gfw": false,
+      "searchLimit": 20,
+      "sniffer": {
+        "mode": 0,
+        "timeout": 12000
+      }
+    }
+  },
+  {
+    "id": "jszy_main",
+    "name": "极速资源",
+    "type": 0,
+    "api": "https://jszyapi.com/api.php/provide/vod/from/jsm3u8/",
+    "logo": "https://jszy333.com/favicon.ico",
+    "desc": "极速资源 - 高速直链（起播快）",
+    "nsfw": false,
+    "status": true,
+    "extra": {
+      "gfw": false,
+      "searchLimit": 20,
+      "sniffer": {
+        "mode": 0,
+        "timeout": 10000
+      }
+    }
+  },
+  {
     "id": "mtzy_main",
     "name": "茅台资源",
     "type": 0,
     "api": "https://caiji.maotaizy.cc/api.php/provide/vod/at/json/",
     "logo": "https://mtzy.me/favicon.ico",
-    "desc": "茅台资源 - 主接口（速度快，内置加速解析）",
+    "desc": "茅台资源 - 解析能力强",
     "nsfw": false,
     "status": true,
     "extra": {
@@ -19,12 +55,12 @@
     }
   },
   {
-    "id": "jszy_main",
-    "name": "极速资源",
+    "id": "ukuzy_main",
+    "name": "U酷资源",
     "type": 0,
-    "api": "https://jszyapi.com/api.php/provide/vod/from/jsm3u8/",
-    "logo": "https://jszy333.com/favicon.ico",
-    "desc": "极速资源 - 高速线路，m3u8直链优先",
+    "api": "https://ukuzyapi.com/api.php/provide/vod/from/ukm3u8/",
+    "logo": "https://ukuzy0.com/favicon.ico",
+    "desc": "U酷资源 - 多线路补充",
     "nsfw": false,
     "status": true,
     "extra": {
@@ -37,18 +73,17 @@
     }
   },
   {
-    "id": "dbzy_main",
-    "name": "豆瓣资源",
+    "id": "xlzy_main",
+    "name": "新浪资源",
     "type": 0,
-    "api": "https://caiji.dbzy5.com/api.php/provide/vod/from/dbm3u8/",
-    "logo": "https://dbzy.tv/favicon.ico",
-    "desc": "豆瓣资源 - 修复封面版（新采集域）",
+    "api": "https://xinlangzy.com/api.php/provide/vod/from/xlm3u8/",
+    "logo": "https://www.xinlangzy.com/favicon.ico",
+    "desc": "新浪资源 - 兜底备用",
     "nsfw": false,
     "status": true,
     "extra": {
       "gfw": false,
       "searchLimit": 20,
-      "jiexiUrl": "https://doubanzyjx.com:966/?url=",
       "sniffer": {
         "mode": 0,
         "timeout": 15000
