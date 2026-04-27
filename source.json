@@ -36,24 +36,29 @@
     }
   },
   {
-    "id": "mtzy_main",
-    "name": "茅台资源",
-    "type": 0,
-    "api": "https://caiji.maotaizy.cc/api.php/provide/vod/at/json/",
-    "logo": "https://mtzy.me/favicon.ico",
-    "desc": "",
-    "nsfw": false,
-    "status": true,
-    "extra": {
-      "gfw": false,
-      "searchLimit": 20,
-      "jiexiUrl": "https://maotai888.vip:966/?url=",
-      "sniffer": {
-        "mode": 0,
-        "timeout": 15000
-      }
+  "id": "mtzy_main",
+  "name": "茅台资源",
+  "type": 0,
+  "api": "https://caiji.maotaizy.cc/api.php/provide/vod/from/mtm3u8/at/xml/",
+  "logo": "https://mtzy.me/favicon.ico",
+  "desc": "",
+  "nsfw": false,
+  "status": true,
+  "extra": {
+    "gfw": false,
+    "searchLimit": 20,
+    "jiexiUrl": "https://maotai888.vip:966/?url=",
+    "backupApi": [
+      "https://caiji.maotaizy.cc/api.php/provide/vod/at/json/",
+      "https://caiji.maotaizy.cc/api.php/provide/vod/from/mtm3u8/at/json/",
+      "https://caiji.maotaizy.cc/api.php/provide/vod/from/mtm3u8/at/xml/"
+    ],
+    "sniffer": {
+      "mode": 0,
+      "timeout": 15000
     }
-  },
+  }
+},
   {
     "id": "moduzy_main",
     "name": "魔都资源",
