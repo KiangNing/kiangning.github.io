@@ -1,5 +1,5 @@
 [
-   {
+  {
     "id": "okzy_main",
     "name": "OK资源",
     "type": 0,
@@ -58,7 +58,8 @@
       "sniffer": { "mode": 0, "timeout": 15000 }
     }
   },
-  "id": "moduzy_main",
+  {
+    "id": "moduzy_main",
     "name": "魔都资源",
     "type": 0,
     "api": "https://www.mdzyapi.com/api.php/provide/vod",
@@ -70,4 +71,5 @@
       "gfw": false,
       "sniffer": { "mode": 0, "timeout": 15000 }
     }
+  }
 ]
