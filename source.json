@@ -41,12 +41,13 @@
     "type": 0,
     "api": "https://caiji.dbzy5.com/api.php/provide/vod/from/dbm3u8/at/josn/",
     "logo": "https://dbzy.tv/favicon.ico",
-    "desc": "豆瓣资源 - 官方m3u8源（建议采集间隔5秒以上）",
+    "desc": "豆瓣资源 - 官方源（如无图请开启无来源头模式）",
     "extra": {
       "gfw": false,
       "nsfw": false,
       "searchLimit": 15,
       "jiexiUrl": "https://dbzy99.com:699/?url=",
+      "referrer": "no-referrer", 
       "sniffer": {
         "mode": 0,
         "timeout": 12000
