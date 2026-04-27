@@ -5,7 +5,7 @@
     "type": 0,
     "api": "https://okzyw.cc/api.php/provide/vod/from/okm3u8/",
     "logo": "https://okzyw.cc/favicon.ico",
-    "desc": "OK资源 - 主力稳定源（封面正常）",
+    "desc": "",
     "nsfw": false,
     "status": true,
     "extra": {
@@ -23,7 +23,7 @@
     "type": 0,
     "api": "https://jszyapi.com/api.php/provide/vod/from/jsm3u8/",
     "logo": "https://jszy333.com/favicon.ico",
-    "desc": "极速资源 - 高速直链（起播快）",
+    "desc": "",
     "nsfw": false,
     "status": true,
     "extra": {
@@ -41,7 +41,7 @@
     "type": 0,
     "api": "https://caiji.maotaizy.cc/api.php/provide/vod/at/json/",
     "logo": "https://mtzy.me/favicon.ico",
-    "desc": "茅台资源 - 解析能力强",
+    "desc": "",
     "nsfw": false,
     "status": true,
     "extra": {
@@ -55,30 +55,12 @@
     }
   },
   {
-    "id": "ukuzy_main",
-    "name": "U酷资源",
+    "id": "moduzy_main",
+    "name": "魔都资源",
     "type": 0,
-    "api": "https://ukuzyapi.com/api.php/provide/vod/from/ukm3u8/",
-    "logo": "https://ukuzy0.com/favicon.ico",
-    "desc": "U酷资源 - 多线路补充",
-    "nsfw": false,
-    "status": true,
-    "extra": {
-      "gfw": false,
-      "searchLimit": 20,
-      "sniffer": {
-        "mode": 0,
-        "timeout": 12000
-      }
-    }
-  },
-  {
-    "id": "xlzy_main",
-    "name": "新浪资源",
-    "type": 0,
-    "api": "https://xinlangzy.com/api.php/provide/vod/from/xlm3u8/",
-    "logo": "https://www.xinlangzy.com/favicon.ico",
-    "desc": "新浪资源 - 兜底备用",
+    "api": "https://www.moduzy1.com/caiji/",
+    "logo": "https://www.moduzy1.com/favicon.ico",
+    "desc": "",
     "nsfw": false,
     "status": true,
     "extra": {
