@@ -58,11 +58,10 @@
       "sniffer": { "mode": 0, "timeout": 15000 }
     }
   },
-  {
-    "id": "moduzy_main",
+  "id": "moduzy_main",
     "name": "魔都资源",
     "type": 0,
-    "api": "https://www.moduzy1.com/api.php/provide/vod/at/xml/",
+    "api": "https://www.mdzyapi.com/api.php/provide/vod",
     "logo": "https://www.moduzy1.com/favicon.ico",
     "desc": "魔都资源",
     "nsfw": false,
@@ -71,5 +70,4 @@
       "gfw": false,
       "sniffer": { "mode": 0, "timeout": 15000 }
     }
-  }
 ]
