@@ -58,7 +58,7 @@
     "id": "moduzy_main",
     "name": "魔都资源",
     "type": 0,
-    "api": "https://www.moduzy1.com/caiji/",
+    "api": "https://www.mdzyapi.com/api.php/provide/vod/at/xml/",
     "logo": "https://www.moduzy1.com/favicon.ico",
     "desc": "",
     "nsfw": false,
@@ -69,7 +69,20 @@
       "sniffer": {
         "mode": 0,
         "timeout": 15000
-      }
+      },
+      "mirror": [
+        "https://www.moduzy1.com",
+        "https://moduzy1.com",
+        "https://moduzy2.com",
+        "https://moduzy3.com",
+        "https://moduzy4.com",
+        "https://moduzy5.com",
+        "https://moduzy6.com",
+        "https://moduzy7.com",
+        "https://moduzy8.com",
+        "https://moduzy9.com",
+        "https://moduzy10.com"
+      ]
     }
   }
 ]
