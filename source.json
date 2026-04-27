@@ -1,0 +1,19 @@
+[
+  {
+    "id": "mtzy_main",
+    "name": "茅台资源站",
+    "type": 0,
+    "api": "https://caiji.maotaizy.cc/api.php/provide/vod/at/josn/",
+    "logo": "https://mtzy.me/favicon.ico",
+    "desc": "茅台资源站 - 主接口（速度快，内置加速解析）",
+    "extra": {
+      "gfw": false,
+      "searchLimit": 20,
+      "jiexiUrl": "https://maotai888.vip:966/?url=",
+      "sniffer": {
+        "mode": 0,
+        "timeout": 15000
+      }
+    }
+  }
+]
