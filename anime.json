@@ -1,0 +1,27 @@
+[
+  {
+    "id": "omofun_main",
+    "name": "omofun动漫",
+    "api": "https://omofun01.xyz",
+    "nsfw": false,
+    "type": 1,
+    "extra": {
+      "gfw": false,
+      "searchLimit": 20,
+      "js": {
+        "category": [
+          { "text": "首页", "id": "/" },
+          { "text": "电影", "id": "1" },
+          { "text": "连续剧", "id": "2" },
+          { "text": "综艺", "id": "3" },
+          { "text": "动漫", "id": "4" },
+          { "text": "里番绅士", "id": "5" }
+        ],
+        "home": "const base=env.get(\"baseUrl\");const $=utils.kitty.load(await(0,utils.req)(base));const cards=$(\".module-main,.module-items,.tab-list\").toArray().map(block=>{const title=$(block).find(\"h2,.title\").first().text().trim()||\"推荐\";const items=$(block).find(\"a[href*='/vod/detail/id/']\").toArray().map(a=>{const href=$(a).attr(\"href\");const pic=$(a).find(\"img\").attr(\"data-original\")||$(a).find(\"img\").attr(\"src\")||\"\";const name=$(a).attr(\"title\")||$(a).text().trim();const remark=$(a).find(\".remarks,.score,.update\").text().trim();return {id:base+href,name,pic,remark};}).filter(i=>i.name);return {title,videos:items};}).filter(c=>c.videos.length>0);return {type:\"complex\",data:[{type:\"markdown\",extra:{markdown:\"欢迎使用 omofun 源\\n> 域名变化时请修改 api\"}},...cards]};",
+        "search": "const base=env.get(\"baseUrl\");const wd=env.get(\"keyword\");const page=env.get(\"page\")||1;const url=`${base}/vod/search.html?wd=${encodeURIComponent(wd)}&page=${page}`;const $=utils.kitty.load(await(0,utils.req)(url));const list=$(\".search-list a,.module-item a,.hl-list-item a\").toArray().map(a=>{const href=$(a).attr(\"href\");const pic=$(a).find(\"img\").attr(\"data-original\")||$(a).find(\"img\").attr(\"src\")||\"\";const name=$(a).attr(\"title\")||$(a).text().trim();const remark=$(a).find(\".remarks\").text().trim();return {id:base+href,name,pic,remark};}).filter(i=>i.name);return {list,page,pagecount:10};",
+        "detail": "const base=env.get(\"baseUrl\");const id=env.get(\"movieId\");const url=base+id;const $=utils.kitty.load(await(0,utils.req)(url));const name=$(\"h1,.title\").first().text().trim();const pic=$(\"img.cover,.module-item-pic img\").attr(\"src\")||\"\";const desc=$(\".content,.desc,.blurb\").text().trim().replace(/简介：/,'');const tabs=$(\".hl-plays-from a,.module-tab a\").toArray().map(a=>$(a).text().trim());const playlists=$(\".hl-tabs-box,.episode-list\").toArray().map(block=>{return $(block).find(\"a\").toArray().map(a=>{const playHref=$(a).attr(\"href\");const epName=$(a).text().trim();return `${epName}$${base+playHref}`;}).join(\"#\");});const playlist=tabs.map((title,i)=>{return {title,videos:playlists[i]||\"\"};});return {name,pic,desc,playlist};",
+        "parseIframe": "const iframe=env.get(\"iframe\");const html=await(0,utils.req)(iframe);const $=utils.kitty.load(html);const script=$(\"script\").toArray().find(s=>$(s).text().includes(\"player_aaaa\"));if(script){let code=$(script).text().replace(/var player_aaaa=/,'').trim();try{const player=eval('('+code+')');if(player.url){return player.encrypt==1?unescape(player.url):player.encrypt==2?unescape(atob(player.url)):player.url;}}catch(e){}}return \"\";"
+      }
+    }
+  }
+]
