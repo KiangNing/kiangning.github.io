@@ -3,16 +3,35 @@
     "id": "mtzy_main",
     "name": "茅台资源站",
     "type": 0,
-    "api": "https://caiji.maotaizy.cc/api.php/provide/vod/at/xml/",
+    "api": "https://caiji.maotaizy.cc/api.php/provide/vod/at/josn/",
     "logo": "https://mtzy.me/favicon.ico",
-    "desc": "茅台资源站 - XML主接口（推荐，分类更稳定）",
+    "desc": "茅台资源站 - 主接口（速度快，内置加速解析）",
     "extra": {
       "gfw": false,
+      "nsfw": false,
       "searchLimit": 20,
       "jiexiUrl": "https://maotai888.vip:966/?url=",
       "sniffer": {
         "mode": 0,
         "timeout": 15000
+      }
+    }
+  },
+  {
+    "id": "jszy_main",
+    "name": "极速资源",
+    "type": 0,
+    "api": "https://jszyapi.com/api.php/provide/vod/at/json/",
+    "logo": "https://jszy333.com/favicon.ico",
+    "desc": "极速资源 - 速度极快，画质高清",
+    "extra": {
+      "gfw": false,
+      "nsfw": false,
+      "searchLimit": 10,
+      "jiexiUrl": "https://jx.jszyapi.com/player/?url=",
+      "sniffer": {
+        "mode": 0,
+        "timeout": 10000
       }
     }
   }
