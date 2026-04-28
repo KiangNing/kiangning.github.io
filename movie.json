@@ -105,5 +105,24 @@
         "timeout": 15000
       }
     }
+  },
+  {
+    "id": "xiaojizy_main",
+    "name": "小鸡资源",
+    "type": 0,
+    "api": "https://api.xjzyapi.xyz/provide/vod",
+    "logo": "https://xiaojizy.live/favicon.ico",
+    "desc": "有广告",
+    "nsfw": true,
+    "status": true,
+    "extra": {
+      "gfw": false,
+      "searchLimit": 20,
+      "jiexiUrl": "",
+      "sniffer": {
+        "mode": 0,
+        "timeout": 15000
+      }
+    }
   }
 ]
