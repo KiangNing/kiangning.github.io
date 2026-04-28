@@ -124,5 +124,24 @@
         "timeout": 15000
       }
     }
+  },
+  {
+    "id": "yutuzy_main",
+    "name": "玉兔资源",
+    "type": 0,
+    "logo": "https://yutuzy.com/favicon.ico",
+    "desc": "有广告",
+    "nsfw": true,
+    "status": true,
+    "api": "https://apiyutu.com/api.php/providedao/vod/?ac=list",
+    "extra": {
+      "gfw": false,
+      "searchLimit": 25,
+      "jiexiUrl": "https://yutujx.com/?url=",
+      "sniffer": {
+        "mode": 0,
+        "timeout": 15000
+      }
+    }
   }
 ]
