@@ -86,19 +86,5 @@
       "jiexiUrl": "https://jx.jxbdzyw.com/m3u8/?url=",
       "sniffer": { "mode": 0, "timeout": 15000 }
     }
-  },
-  {
-    "id": "yytv1_cc",
-    "name": "优优资源",
-    "type": 0,
-    "logo": "https://yytv1.cc/favicon.ico",
-    "desc": "优优资源 - MaxCms 全网资源",
-    "nsfw": false,
-    "status": true,
-    "api": "https://yytv1.cc/api.php/provide/vod/at/xml/",
-    "extra": {
-      "gfw": false,
-      "searchLimit": 20
-    }
   }
 ]
