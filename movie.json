@@ -92,7 +92,7 @@
     "name": "影剧资源",
     "type": 0,
     "logo": "https://yjzy.tv/favicon.ico",
-    "desc": "影剧资源",
+    "desc": "影剧资源站",
     "nsfw": false,
     "status": true,
     "api": "https://caiji.maotaizy.cc/api.php/provide/vod/at/json/",
@@ -100,6 +100,25 @@
       "gfw": false,
       "searchLimit": 20,
       "jiexiUrl": "https://mtjiexi.cc:966/?url=",
+      "sniffer": {
+        "mode": 0,
+        "timeout": 15000
+      }
+    }
+  },
+  {
+    "id": "yutuzy_main",
+    "name": "玉兔资源",
+    "type": 0,
+    "logo": "https://yutuzy.com/favicon.ico",
+    "desc": "玉兔资源（推荐使用倒序接口）",
+    "nsfw": false,
+    "status": true,
+    "api": "https://apiyutu.com/api.php/providedao/vod/?ac=list",
+    "extra": {
+      "gfw": false,
+      "searchLimit": 25,
+      "jiexiUrl": "https://yutujx.com/?url=",
       "sniffer": {
         "mode": 0,
         "timeout": 15000
