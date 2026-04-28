@@ -5,7 +5,7 @@
     "type": 0,
     "api": "https://api.okzyw.net/api.php/provide/vod",
     "logo": "https://okzyw.cc/favicon.ico",
-    "desc": "OK资源",
+    "desc": "无广告",
     "nsfw": false,
     "status": true,
     "extra": {
@@ -20,7 +20,7 @@
     "type": 0,
     "api": "https://jszyapi.com/api.php/provide/vod/from/jsm3u8/at/xml",
     "logo": "https://jszy333.com/favicon.ico",
-    "desc": "极速资源",
+    "desc": "无广告",
     "nsfw": false,
     "status": true,
     "extra": {
@@ -34,7 +34,7 @@
     "type": 0,
     "api": "https://caiji.maotaizy.cc/api.php/provide/vod/from/mtm3u8/at/xml/",
     "logo": "https://mtzy.me/favicon.ico",
-    "desc": "茅台资源",
+    "desc": "无广告",
     "nsfw": false,
     "status": true,
     "extra": {
@@ -49,7 +49,7 @@
     "type": 0,
     "api": "https://www.mdzyapi.com/api.php/provide/vod",
     "logo": "https://www.moduzy1.com/favicon.ico",
-    "desc": "魔都资源",
+    "desc": "无广告",
     "nsfw": false,
     "status": true,
     "extra": {
@@ -63,7 +63,7 @@
     "type": 0,
     "api": "https://cj.rycjapi.com/api.php/provide/vod/at/xml/",
     "logo": "https://www.ryzy.tv/favicon.ico",
-    "desc": "如意资源",
+    "desc": "无广告",
     "nsfw": false,
     "status": true,
     "extra": {
@@ -78,7 +78,7 @@
     "type": 0,
     "api": "https://api.apibdzy.com/api.php/provide/vod/at/xml/",
     "logo": "https://bdzy1.com/favicon.ico",
-    "desc": "百度资源",
+    "desc": "无广告",
     "nsfw": false,
     "status": true,
     "extra": {
@@ -105,6 +105,5 @@
         "timeout": 15000
       }
     }
-  }
   }
 ]
