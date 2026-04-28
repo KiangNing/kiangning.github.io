@@ -1,16 +1,17 @@
 {
-  "id": "yytv1_cc",
-  "name": "优优资源",
-  "type": 0,
-  "logo": "https://yytv1.cc/favicon.ico",
-  "api": "https://yytv1.cc/api.php/provide/vod/from/dplayer/at/xml/",
+  "id": "cycani",
+  "name": "次元城动画",
+  "type": 1,
+  "api": "https://www.cycani.org/",
   "extra": {
-    "gfw": false,
+    "js": {
+      "home": "getHome",
+      "category": "getCategory",
+      "search": "getSearch",
+      "detail": "getDetail",
+      "parseIframe": "parseIframe"
+    },
     "searchLimit": 20,
-    "sniffer": {
-      "mode": 1,
-      "timeout": 20000,
-      "customRegex": "\\.(m3u8|mp4|flv|ts)"
-    }
+    "gfw": false
   }
 }
