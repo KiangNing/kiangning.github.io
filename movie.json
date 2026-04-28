@@ -87,7 +87,6 @@
       "sniffer": { "mode": 0, "timeout": 15000 }
     }
   },
-  [
   {
     "id": "yytv1_cc",
     "name": "优优资源",
@@ -102,5 +101,4 @@
       "searchLimit": 20
     }
   }
-]
 ]
