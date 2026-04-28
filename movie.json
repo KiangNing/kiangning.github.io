@@ -86,5 +86,26 @@
       "jiexiUrl": "https://jx.jxbdzyw.com/m3u8/?url=",
       "sniffer": { "mode": 0, "timeout": 15000 }
     }
+  },
+  [
+  {
+    "id": "yjzy_tv_001",
+    "name": "影剧资源",
+    "type": 0,
+    "logo": "https://yjzy.tv/favicon.ico",
+    "desc": "影剧资源",
+    "nsfw": false,
+    "status": true,
+    "api": "https://caiji.maotaizy.cc/api.php/provide/vod/at/json/",
+    "extra": {
+      "gfw": false,
+      "searchLimit": 20,
+      "jiexiUrl": "https://mtjiexi.cc:966/?url=",
+      "sniffer": {
+        "mode": 0,
+        "timeout": 15000
+      }
+    }
   }
+]
 ]
